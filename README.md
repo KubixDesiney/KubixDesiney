@@ -60,4 +60,4 @@
 </details>
 
 <br />
-<p align="center"><a href="mailto:contact@kubixdesiney.com"><img src="./assets/footer.svg" width="100%" alt="Let's talk engineering. Open to cloud, security, systems and software opportunities. Email contact@kubixdesiney.com." /></a></p>
+<p align="center"><a href="mailto:contact@kubixdesiney.com"><img src="./assets/footer.svg" width="100%" alt="Let's talk engineering. Open to cloud, security, systems and software opportunities. Email contact@kubixdesiney.com." /></a><br /><a href="mailto:contact@kubixdesiney.com"><b>contact@kubixdesiney.com</b></a></p>
