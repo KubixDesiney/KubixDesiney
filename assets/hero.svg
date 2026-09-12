@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Aziz Bargaoui — Systems. Security. Software.</title>
+  <desc id="desc">Animated engineering portfolio banner: a floating processor core, flowing circuit signals, and an open-to-opportunities status. Cloud security, systems engineering, and software development.</desc>
+  <style>
+    .core { animation: float 4.8s ease-in-out infinite; }
+    .signal { stroke-dasharray: 18 520; animation: travel 6s linear infinite; }
+    .signal.two { animation-delay: -2.7s; }
+    .status { animation: pulse 2.8s ease-in-out infinite; }
+    .orbit { stroke-dasharray: 10 25; animation: orbit 16s linear infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+    @keyframes travel { to { stroke-dashoffset: -538; } }
+    @keyframes orbit { to { stroke-dashoffset: -560; } }
+    @keyframes pulse { 0%,100% { opacity: .95; } 50% { opacity: .3; } }
+    @media (prefers-reduced-motion: reduce) { .core,.signal,.status,.orbit { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#93B8C9" stroke-opacity=".06"/></pattern>
+    <linearGradient id="surface" x1="0" y1="0" x2="1440" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#101F2C"/><stop offset="1" stop-color="#08131E"/></linearGradient>
+    <linearGradient id="edge" x1="872" y1="0" x2="1300" y2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#8AF5CC"/><stop offset="1" stop-color="#3A86AD"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1438" height="478" rx="24" fill="url(#surface)" stroke="#29404F" stroke-width="2"/>
+  <rect x="2" y="2" width="1436" height="476" rx="23" fill="url(#grid)"/>
+  <path d="M64 62H99" stroke="#8AF5CC" stroke-width="4"/>
+  <text x="114" y="69" fill="#B9CFDB" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="4">AZIZ BARGAOUI / KUBIXDESINEY</text>
+  <rect x="1078" y="31" width="300" height="39" rx="19.5" fill="#163C37" stroke="#8AF5CC" stroke-opacity=".3"/>
+  <circle class="status" cx="1100" cy="51" r="5" fill="#8AF5CC"/>
+  <text x="1116" y="56" font-family="Consolas,monospace" font-size="14" font-weight="600" letter-spacing="1" fill="#A8F7D9">OPEN TO OPPORTUNITIES</text>
+  <text x="64" y="183" fill="#F0F6FA" font-family="Segoe UI, Arial, sans-serif" font-size="73" font-weight="700" letter-spacing="-3">Systems. Security.</text>
+  <text x="64" y="272" fill="#8AF5CC" font-family="Segoe UI, Arial, sans-serif" font-size="85" font-weight="700" letter-spacing="-3">Software.</text>
+  <text x="68" y="326" fill="#B7C9D6" font-family="Segoe UI, Arial, sans-serif" font-size="25">From low-level research to interactive applications.</text>
+  <path d="M68 382H758" stroke="#2C4353"/>
+  <text x="68" y="419" fill="#A5BDCC" font-family="Consolas, monospace" font-size="17" letter-spacing="1">PYTHON / JAVA / TYPESCRIPT / JAVASCRIPT / DART</text>
+  <g stroke="url(#edge)" stroke-width="2" stroke-linejoin="round">
+    <path d="M1044 81L1236 186L1044 293L852 186Z" fill="#173C46" fill-opacity=".45"/>
+    <path d="M852 186V284L1044 392V293Z" fill="#132A36" fill-opacity=".9"/>
+    <path d="M1236 186V284L1044 392V293Z" fill="#0E2431" fill-opacity=".9"/>
+    <path d="M884 204L1044 294L1204 204M884 236L1044 326L1204 236M884 268L1044 358L1204 268" stroke-opacity=".35"/>
+    <path d="M980 116L1172 222M916 151L1108 258M1108 116L916 222M1172 151L980 258" stroke-opacity=".28"/>
+    <g class="core">
+      <path d="M1044 155L1105 189L1044 224L983 189Z" fill="#8AF5CC" stroke="#C1FFE8"/>
+      <path d="M983 189V222L1044 257V224Z" fill="#4FBEA8"/>
+      <path d="M1105 189V222L1044 257V224Z" fill="#2D8591"/>
+      <path d="M1024 179L1005 189L1024 200M1064 179L1083 189L1064 200" stroke="#173D43" stroke-width="3"/>
+    </g>
+    <path d="M1236 235H1291V130H1358M1044 392V430H1292M852 235H822V112H867" stroke-opacity=".65"/>
+  </g>
+  <path class="orbit" d="M1044 81L1236 186L1044 293L852 186Z" fill="none" stroke="#9BF7D7" stroke-opacity=".7" stroke-width="2"/>
+  <path class="signal" d="M852 235H822V112H867M1236 235H1291V130H1358" fill="none" stroke="#B9FFE6" stroke-width="4" stroke-linecap="round"/>
+  <path class="signal two" d="M1044 392V430H1292" fill="none" stroke="#8BD8FF" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#8AF5CC"><circle cx="1358" cy="130" r="5"/><circle cx="1292" cy="430" r="5"/><circle cx="867" cy="112" r="5"/></g>
+  <g font-family="Consolas, monospace" font-size="13" letter-spacing="2" fill="#7297AD"><text x="1264" y="107">BUILD</text><text x="1183" y="461">VERIFY</text><text x="956" y="52">EXPLORE</text></g>
+</svg>
