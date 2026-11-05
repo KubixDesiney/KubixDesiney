@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
  <title id="title">AIOPS — Deterministic AI company · private build</title><desc id="desc">Typed monorepo: dashboard, API, worker. Durable workflows &amp; recovery tests. 30-employee simulated office. TYPESCRIPT, REACT / VITE, POSTGRES.</desc>
- <style>.feature{font-size:36px}.subtitle{font-size:32px}.project-title{font-size:52px}.tagtext{font-size:21px;letter-spacing:-1px}.kicker{font-size:20px;letter-spacing:1px}</style>
+ <style>.feature{font-size:30px}.subtitle{font-size:26px}.project-title{font-size:52px}.tagtext{font-size:21px;letter-spacing:-1px}.kicker{font-size:20px;letter-spacing:1px}</style>
  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132536"/><stop offset="1" stop-color="#0B1623"/></linearGradient><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#D0B2FF" opacity=".12"/></pattern></defs>
  <rect x="1" y="1" width="718" height="438" rx="20" fill="url(#bg)" stroke="#2A4054" stroke-width="2"/>
  <path d="M38 1H200" stroke="#D0B2FF" stroke-width="3"/>
@@ -8,8 +8,14 @@
  <text class="kicker" x="38" y="49" font-family="Consolas,monospace" font-size="16" letter-spacing="2.5" fill="#D0B2FF">SELECTED BUILD / 04</text>
  <text class="project-title" x="38" y="109" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#F1F6FB">AIOPS</text>
  <text class="subtitle" x="38" y="151" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#B5C9D9">Deterministic AI company · private build</text>
- <g transform="translate(599 74)" fill="none" stroke="#D0B2FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="38" cy="38" r="12"/><circle cx="8" cy="10" r="6"/><circle cx="68" cy="10" r="6"/><circle cx="8" cy="66" r="6"/><circle cx="68" cy="66" r="6"/><path d="M29 30L12 14M47 30L64 14M29 46L12 62M47 46L64 62"/></g>
+ <!-- Lucide workflow icon (ISC); see lucide-LICENSE. Geometry from lucide-icons/lucide. -->
+ <svg x="599" y="70" width="76" height="76" viewBox="0 0 24 24" fill="none" stroke="#D0B2FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <rect width="8" height="8" x="3" y="3" rx="2" />
+  <path d="M7 11v4a2 2 0 0 0 2 2h4" />
+  <rect width="8" height="8" x="13" y="13" rx="2" />
+ </svg>
  <path d="M38 172H682" stroke="#2C4357"/>
  <circle cx="44" cy="215" r="3.5" fill="#D0B2FF"/><text class="feature" x="61" y="225" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#D4E1EC">Typed monorepo: dashboard, API, worker</text><circle cx="44" cy="259" r="3.5" fill="#D0B2FF"/><text class="feature" x="61" y="269" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#D4E1EC">Durable workflows &amp; recovery tests</text><circle cx="44" cy="303" r="3.5" fill="#D0B2FF"/><text class="feature" x="61" y="313" font-family="Segoe UI,Arial,sans-serif" font-size="24" fill="#D4E1EC">30-employee simulated office</text>
  <rect x="38" y="367" width="140" height="37" rx="8" fill="#D0B2FF" fill-opacity=".08" stroke="#D0B2FF" stroke-opacity=".25"/><text class="tagtext" x="108" y="392" text-anchor="middle" font-family="Consolas,monospace" font-size="17" font-weight="600" fill="#D0B2FF">TYPESCRIPT</text><rect x="188" y="367" width="162" height="37" rx="8" fill="#D0B2FF" fill-opacity=".08" stroke="#D0B2FF" stroke-opacity=".25"/><text class="tagtext" x="269" y="392" text-anchor="middle" font-family="Consolas,monospace" font-size="17" font-weight="600" fill="#D0B2FF">REACT / VITE</text><rect x="360" y="367" width="118" height="37" rx="8" fill="#D0B2FF" fill-opacity=".08" stroke="#D0B2FF" stroke-opacity=".25"/><text class="tagtext" x="419" y="392" text-anchor="middle" font-family="Consolas,monospace" font-size="17" font-weight="600" fill="#D0B2FF">POSTGRES</text>
  </svg>
+
